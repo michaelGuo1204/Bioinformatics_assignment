@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Cuda"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cuda\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cuda">
+				<Option output="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/libCuda.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/usr/local/cuda-10.2/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 Cuda"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cuda/fast">
+				<Option output="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/libCuda.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/usr/local/cuda-10.2/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 Cuda/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/CMakeFiles/Cuda.dir/Cuda_generated_cuda.cu.o">
+			<Option target="Cuda"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/cuda/cuda.cu">
+			<Option target="Cuda"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/cuda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cuda\"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,9 @@
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/CMakeFiles/bayes_project.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/CMakeFiles/edit_cache.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/CMakeFiles/rebuild_cache.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/cuda/bin/CMakeFiles/Cuda.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/CMakeFiles/rebuild_cache.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/CMakeFiles/edit_cache.dir
+/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/CMakeFiles/cpart.dir

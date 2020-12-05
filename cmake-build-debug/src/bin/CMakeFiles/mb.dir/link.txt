@@ -1,0 +1,1 @@
+mpicc -fPIC -g  -shared -Wl,-soname,libmb.so -o libmb.so CMakeFiles/mb.dir/mb.c.o 

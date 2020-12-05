@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpart"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cuda\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpart">
+				<Option output="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/libcpart.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 cpart"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpart/fast">
+				<Option output="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/libcpart.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 cpart/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/media/bili/Document/Bioinformatics/Bayes_Project/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/bayes.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/bayes.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/command.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/command.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/globals.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/mb.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/mb.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/mbmath.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/mbmath.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/mcmc.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/mcmc.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/model.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/model.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/plot.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/plot.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/sump.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/sump.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/sumt.c">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/sumt.h">
+			<Option target="cpart"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/cuda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cuda\"/>
+		</Unit>
+		<Unit filename="/media/bili/Document/Bioinformatics/Bayes_Project/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

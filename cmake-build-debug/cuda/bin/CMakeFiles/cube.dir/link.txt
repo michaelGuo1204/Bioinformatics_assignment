@@ -1,0 +1,1 @@
+/usr/bin/g++-7 -fPIC -g  -shared -Wl,-soname,libcube.so -o libcube.so CMakeFiles/cube.dir/cube_generated_cuda.cu.o  -Wl,-Bstatic -lcudart_static -Wl,-Bdynamic -ldl -lrt -lpthread -lcufft -lpcap -lpthread 

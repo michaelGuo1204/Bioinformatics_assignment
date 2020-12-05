@@ -1,0 +1,1 @@
+mpicc -fPIC -g  -shared -Wl,-soname,libmcmc.so -o libmcmc.so CMakeFiles/mcmc.dir/mcmc.c.o 
