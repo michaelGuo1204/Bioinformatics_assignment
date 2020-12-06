@@ -1,0 +1,84 @@
+location	Wuhan	#4A8CC2
+location	San Francisco	#71B486
+location	Maricopa County	#ABBD52
+location	East Feliciana Parish	#DEA73C
+
+division	Iran	#5E1D9D
+division	India	#501EA9
+division	Sri Lanka	#4A28B3
+division	Thailand	#4531BC
+division	Malaysia	#403BC5
+division	China	#3F48C9
+division	Hubei	#3F54CD
+division	Beijing	#3F60D0
+division	Ho Chi Minh City	#416BCE
+division	Taiwan	#4376CD
+division	South Korea	#4681CA
+division	Saitama	#4989C4
+division	Victoria	#4D92BF
+division	Guam	#519AB7
+division	Spain	#56A0AF
+division	France	#5BA6A6
+division	Netherlands	#61AB9D
+division	Bavaria	#67AF93
+division	Athens	#6EB38A
+division	Jamaica	#75B681
+division	Hawaii	#7DB878
+division	Alaska	#84BA6F
+division	Washington	#8DBC68
+division	California	#95BD60
+division	Idaho	#9EBE5A
+division	Utah	#A7BE54
+division	Arizona	#B0BD4F
+division	Nebraska	#B8BC4A
+division	USA	#C0BA47
+division	Louisiana	#C8B844
+division	Wisconsin	#CFB541
+division	Illinois	#D5B03F
+division	Indiana	#DBAC3D
+division	Michigan	#DFA43B
+division	Georgia	#E29C39
+division	Ohio	#E69437
+division	Florida	#E68935
+division	South Carolina	#E67D33
+division	North Carolina	#E67130
+division	Virginia	#E4622E
+division	Pennsylvania	#E1542B
+division	New York	#DF4528
+division	Connecticut	#DD3725
+division	Massachusetts	#DB2823
+
+country	Iran	#5E1D9D
+country	India	#492AB5
+country	Sri Lanka	#4042C7
+country	Thailand	#3E5DD0
+country	Malaysia	#4377CD
+country	China	#4A8CC2
+country	Vietnam	#549DB2
+country	Taiwan	#60AA9E
+country	South Korea	#6EB389
+country	Japan	#80B974
+country	Australia	#92BC63
+country	Guam	#A6BE55
+country	Spain	#B9BC4A
+country	France	#CBB742
+country	Netherlands	#D9AD3D
+country	Germany	#E29D39
+country	Greece	#E68634
+country	Uruguay	#E56A2F
+country	Jamaica	#E04929
+country	USA	#DB2823
+
+recency	Older	#447CCD
+recency	One month ago	#5EA9A1
+recency	One week ago	#8ABB6A
+recency	3-7 days ago	#BEBB48
+recency	1-2 days ago	#E29E39
+recency	New	#E2562B
+
+region	Asia	#4784C8
+region	Oceania	#67AE95
+region	Europe	#98BD5E
+region	South America	#CDB642
+region	North America	#E68634
+

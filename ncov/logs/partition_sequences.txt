@@ -1,0 +1,3 @@
+Write out 150 sequences for partition 0
+Write out 150 sequences for partition 1
+Write out 73 sequences for partition 2

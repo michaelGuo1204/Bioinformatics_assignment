@@ -1,0 +1,68 @@
+WARNING: [config file] Trait 'legacy_clade_membership' is missing type information. We've guessed 'categorical'.
+
+WARNING: [config file] Trait 'subclade_membership' is missing type information. We've guessed 'categorical'.
+
+WARNING: These values for trait location were not specified in your provided color scale: hubei. Auspice will create colors for them.
+
+WARNING: These values for trait division were not specified in your provided color scale: botad, mansa, gandhinagar, una, valencia, wuhan, uruguay, prantij, surat, ahmedabad, dahegam, himatnagar, hangzhou, hyderabad. Auspice will create colors for them.
+
+WARNING: location->Hubei did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Botad did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Himatnagar did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Mansa did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Gandhinagar did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Hyderabad did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Una did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Surat did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Ahmedabad did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Valencia did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Prantij did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Dahegam did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+WARNING: division->Wuhan did not have an associated lat/long value (matching performed in lower case). Auspice won't be able to display this location.
+
+	WARNING:  "Hubei", a value of the geographic resolution "location", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Botad", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Himatnagar", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Mansa", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Gandhinagar", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Hyderabad", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Una", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Surat", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Ahmedabad", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Valencia", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Prantij", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Dahegam", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+	WARNING:  "Wuhan", a value of the geographic resolution "division", appears in the tree but not in the metadata.
+		This will cause transmissions & demes involving this location not to be displayed in Auspice
+Validating schema of 'results/global/aa_muts.json'...
+Validating config file my_profiles/example/my_auspice_config.json against the JSON schema
+Validating schema of 'my_profiles/example/my_auspice_config.json'...
+Validating produced JSON
+Validating schema of 'results/global/ncov_with_accessions.json'...
+Validating that the JSON is internally consistent...
+Validation of 'results/global/ncov_with_accessions.json' succeeded, but there were warnings you may want to resolve.
+

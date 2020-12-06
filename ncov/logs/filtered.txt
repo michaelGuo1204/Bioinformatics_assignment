@@ -1,0 +1,34 @@
+
+44 sequences were dropped during filtering
+	7 of these were dropped because they were in defaults/exclude.txt
+	38 of these were dropped because of 'division=USA'
+	0 of these were dropped because of 'date=2020'
+	0 of these were dropped because of 'date=2020-01-XX'
+	0 of these were dropped because of 'date=2020-02-XX'
+	0 of these were dropped because of 'date=2020-03-XX'
+	0 of these were dropped because of 'date=2020-04-XX'
+	0 of these were dropped because of 'date=2020-05-XX'
+	0 of these were dropped because of 'date=2020-06-XX'
+	0 of these were dropped because of 'date=2020-07-XX'
+	0 of these were dropped because of 'date=2020-08-XX'
+	0 of these were dropped because of 'date=2020-09-XX'
+	0 of these were dropped because of 'date=2020-10-XX'
+	0 of these were dropped because of 'date=2020-11-XX'
+	0 of these were dropped because of 'date=2020-12-XX'
+	0 of these were dropped because of 'date=2020-01'
+	0 of these were dropped because of 'date=2020-02'
+	0 of these were dropped because of 'date=2020-03'
+	0 of these were dropped because of 'date=2020-04'
+	0 of these were dropped because of 'date=2020-05'
+	0 of these were dropped because of 'date=2020-06'
+	0 of these were dropped because of 'date=2020-07'
+	0 of these were dropped because of 'date=2020-08'
+	0 of these were dropped because of 'date=2020-09'
+	0 of these were dropped because of 'date=2020-10'
+	0 of these were dropped because of 'date=2020-11'
+	0 of these were dropped because of 'date=2020-12'
+	0 of these were dropped because they were shorter than minimum length of 27000bp
+	0 of these were dropped because of their date (or lack of date)
+
+	1 sequences were added back because they were in defaults/include.txt
+374 sequences have been written out to results/filtered.fasta

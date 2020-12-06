@@ -1,0 +1,241 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    bili (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -ninit 2 -n 2 -me 0.05 -nt 4 -s results/global/subsampled_alignment-delim.fasta -m GTR -ninit 10 -n 4
+Seed:    667667 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Dec  6 18:27:35 2020
+Kernel:  AVX+FMA - 4 threads (16 CPU cores detected)
+
+Reading alignment file results/global/subsampled_alignment-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 153 sites contain only gaps or ambiguous characters.
+Alignment has 151 sequences with 29903 columns, 888 distinct patterns
+65 parsimony-informative, 236 singleton sites, 29602 constant sites
+                                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  Wuhan_DELIM-HJIRGRARNKKZAKLBKLGS_Hu-1_DELIM-HJIRGRARNKKZAKLBKLGS_2019                                               0.51%    passed     99.98%
+   2  France_DELIM-HJIRGRARNKKZAKLBKLGS_10060KV_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed     99.98%
+   3  France_DELIM-HJIRGRARNKKZAKLBKLGS_10068ND_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed     99.99%
+   4  France_DELIM-HJIRGRARNKKZAKLBKLGS_10006HC_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+   5  France_DELIM-HJIRGRARNKKZAKLBKLGS_10078MA_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+   6  India_DELIM-HJIRGRARNKKZAKLBKLGS_GMCKN318_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+   7  France_DELIM-HJIRGRARNKKZAKLBKLGS_10015BY_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+   8  France_DELIM-HJIRGRARNKKZAKLBKLGS_40003KA_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+   9  France_DELIM-HJIRGRARNKKZAKLBKLGS_50001AR_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed     99.99%
+  10  France_DELIM-HJIRGRARNKKZAKLBKLGS_10023FD_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+  11  Jamaica_DELIM-HJIRGRARNKKZAKLBKLGS_JM-CDC-7286_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                      0.51%    passed    100.00%
+  12  France_DELIM-HJIRGRARNKKZAKLBKLGS_10045DZ_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+  13  France_DELIM-HJIRGRARNKKZAKLBKLGS_10041MR_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+  14  Guam_DELIM-HJIRGRARNKKZAKLBKLGS_GU-NHG-01_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+  15  India_DELIM-HJIRGRARNKKZAKLBKLGS_GMC-KP1125_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+  16  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC489_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.23%    passed     99.99%
+  17  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC174_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.56%    passed     99.99%
+  18  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC20_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.55%    passed    100.00%
+  19  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC21_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.72%    passed     99.97%
+  20  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC26_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.66%    passed     99.99%
+  21  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC51_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.55%    passed    100.00%
+  22  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC8_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.55%    passed    100.00%
+  23  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC85_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.55%    passed    100.00%
+  24  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC29_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.55%    passed     99.99%
+  25  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC88a_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.55%    passed     99.99%
+  26  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC56a_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.55%    passed    100.00%
+  27  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC9_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.69%    passed     99.97%
+  28  Germany_DELIM-HJIRGRARNKKZAKLBKLGS_BavPat3-ChVir1020_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                0.51%    passed     99.99%
+  29  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC54_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.67%    passed     99.95%
+  30  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_139_32716_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.55%    passed     99.99%
+  31  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_222_33921_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.68%    passed     99.97%
+  32  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_259_31928_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.55%    passed     99.99%
+  33  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_37_35684_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.55%    passed     99.99%
+  34  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_227_35969_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.60%    passed     99.97%
+  35  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_41_36861_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.55%    passed    100.00%
+  36  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_209_33926_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.65%    passed     99.95%
+  37  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_246_32206_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.55%    passed    100.00%
+  38  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_248_32261_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.55%    passed     99.99%
+  39  India_DELIM-HJIRGRARNKKZAKLBKLGS_GMCTC469_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+  40  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1018_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.14%    passed     99.99%
+  41  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC713_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         2.26%    passed     97.92%
+  42  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC797_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.64%    passed     99.72%
+  43  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC49_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          2.19%    passed     99.98%
+  44  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC92_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.54%    passed     99.99%
+  45  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1062_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        0.51%    passed    100.00%
+  46  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1135_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        0.51%    passed    100.00%
+  47  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1139_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.13%    passed     99.99%
+  48  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC289_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+  49  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC14_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          2.29%    passed     99.96%
+  50  Germany_DELIM-HJIRGRARNKKZAKLBKLGS_BavPat1-ChVir929_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                 0.57%    passed     99.99%
+  51  Hangzhou_DELIM-HJIRGRARNKKZAKLBKLGS_HZ-1_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.57%    passed     99.97%
+  52  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC824_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.53%    passed     99.99%
+  53  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC248_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.54%    passed    100.00%
+  54  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC800_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.18%    passed     99.97%
+  55  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC803_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         2.45%    passed     97.42%
+  56  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1200_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.23%    passed     99.98%
+  57  ENV_DELIM-HJIRGRARNKKZAKLBKLGS_USA_DELIM-HJIRGRARNKKZAKLBKLGS_UF-11_DELIM-HJIRGRARNKKZAKLBKLGS_2020                 0.51%    passed     99.99%
+  58  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC68_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.54%    passed     99.99%
+  59  Spain_DELIM-HJIRGRARNKKZAKLBKLGS_Valencia002_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        5.89%    passed     99.13%
+  60  Spain_DELIM-HJIRGRARNKKZAKLBKLGS_Valencia003_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        0.57%    passed    100.00%
+  61  Spain_DELIM-HJIRGRARNKKZAKLBKLGS_Valencia22_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         4.43%    passed     99.66%
+  62  Spain_DELIM-HJIRGRARNKKZAKLBKLGS_Valencia8_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.57%    passed     99.99%
+  63  Wuhan_DELIM-HJIRGRARNKKZAKLBKLGS_WH01_DELIM-HJIRGRARNKKZAKLBKLGS_2019                                               0.51%    passed     99.98%
+  64  China_DELIM-HJIRGRARNKKZAKLBKLGS_Beijing_IME-BJ05_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                   0.51%    passed    100.00%
+  65  Greece_DELIM-HJIRGRARNKKZAKLBKLGS_226_35576_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.55%    passed     99.99%
+  66  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1186_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.99%    passed     99.30%
+  67  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1048_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.46%    passed     99.95%
+  68  Taiwan_DELIM-HJIRGRARNKKZAKLBKLGS_CGMH-CGU-07_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                       0.51%    passed     99.99%
+  69  Iran_DELIM-HJIRGRARNKKZAKLBKLGS_HGRC-1.1-IPI-8206_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                   0.51%    passed     99.99%
+  70  SriLanka_DELIM-HJIRGRARNKKZAKLBKLGS_COV38_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed     99.99%
+  71  China_DELIM-HJIRGRARNKKZAKLBKLGS_Wuhan_YB012611_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.51%    passed     99.94%
+  72  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1045_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.31%    passed     99.97%
+  73  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1175_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        2.28%    passed     99.92%
+  74  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC27_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.52%    passed     99.98%
+  75  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1208_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        1.19%    passed     99.96%
+  76  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC927_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.35%    passed     99.88%
+  77  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC546_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         4.90%    passed     96.75%
+  78  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC14_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             1.06%    passed     99.97%
+  79  Malaysia_DELIM-HJIRGRARNKKZAKLBKLGS_189332_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed    100.00%
+  80  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC96_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.80%    passed     99.95%
+  81  India_DELIM-HJIRGRARNKKZAKLBKLGS_GBRC97a_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.55%    passed    100.00%
+  82  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC720_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.60%    passed     99.58%
+  83  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC808_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.18%    passed     99.99%
+  84  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC548_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.40%    passed     99.98%
+  85  Japan_DELIM-HJIRGRARNKKZAKLBKLGS_P4-6_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                               0.51%    passed    100.00%
+  86  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC851_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         2.30%    passed     99.79%
+  87  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC534_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         2.09%    passed     99.16%
+  88  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1038_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        2.15%    passed     99.27%
+  89  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC962_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         3.54%    passed     97.70%
+  90  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC127_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.46%    passed     99.97%
+  91  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC498_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.73%    passed     96.39%
+  92  Thailand_DELIM-HJIRGRARNKKZAKLBKLGS_SI200615-NT_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.88%    passed     99.93%
+  93  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1120_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        6.06%    passed     96.79%
+  94  Australia_DELIM-HJIRGRARNKKZAKLBKLGS_VIC1251_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        6.02%    passed     94.54%
+  95  China_DELIM-HJIRGRARNKKZAKLBKLGS_WHUHnCoV020_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                        0.93%    passed     99.96%
+  96  India_DELIM-HJIRGRARNKKZAKLBKLGS_nimh-2873_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          2.18%    passed     99.95%
+  97  India_DELIM-HJIRGRARNKKZAKLBKLGS_nimh-3952_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          2.27%    passed     99.90%
+  98  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1045_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed     99.98%
+  99  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1033_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed     99.99%
+ 100  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CDPH-UC28_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.53%    passed     99.15%
+ 101  USA_DELIM-HJIRGRARNKKZAKLBKLGS_NE_6605_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.51%    passed     99.99%
+ 102  USA_DELIM-HJIRGRARNKKZAKLBKLGS_FL_5125_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.51%    passed    100.00%
+ 103  USA_DELIM-HJIRGRARNKKZAKLBKLGS_GA_2742_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.51%    passed    100.00%
+ 104  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1085_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed     99.98%
+ 105  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1092_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed     99.98%
+ 106  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1097_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed     99.99%
+ 107  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB091_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.51%    passed    100.00%
+ 108  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1231_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed    100.00%
+ 109  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB0137_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+ 110  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0185_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+ 111  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB0147_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+ 112  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0188_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+ 113  USA_DELIM-HJIRGRARNKKZAKLBKLGS_MI-MDHHS-SC20259_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.51%    passed    100.00%
+ 114  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CT-UW-4347_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+ 115  USA_DELIM-HJIRGRARNKKZAKLBKLGS_NY-PV08455_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.75%    passed    100.00%
+ 116  USA_DELIM-HJIRGRARNKKZAKLBKLGS_NY-PV08124_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.76%    passed     99.98%
+ 117  USA_DELIM-HJIRGRARNKKZAKLBKLGS_NY-PV09143_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.83%    passed     99.99%
+ 118  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0197_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+ 119  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0199_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+ 120  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0205_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+ 121  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1211_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                          0.51%    passed    100.00%
+ 122  USA_DELIM-HJIRGRARNKKZAKLBKLGS_AK178_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                                0.51%    passed    100.00%
+ 123  Thailand_DELIM-HJIRGRARNKKZAKLBKLGS_SI204514-NT_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.57%    passed    100.00%
+ 124  USA_DELIM-HJIRGRARNKKZAKLBKLGS_MI-MDHHS-SC20242_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.51%    passed     99.97%
+ 125  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CT-UW-5773_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+ 126  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0067_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed    100.00%
+ 127  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0110_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         0.51%    passed     99.97%
+ 128  Thailand_DELIM-HJIRGRARNKKZAKLBKLGS_SI204487-NT_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.87%    passed     99.96%
+ 129  Thailand_DELIM-HJIRGRARNKKZAKLBKLGS_SI204512-NT_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                     0.92%    passed     99.96%
+ 130  USA_DELIM-HJIRGRARNKKZAKLBKLGS_UT-00297_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             1.41%    passed     99.98%
+ 131  USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB076_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            1.09%    passed    100.00%
+ 132  USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0115_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                         1.67%    passed     99.85%
+ 133  Uruguay_DELIM-HJIRGRARNKKZAKLBKLGS_Mdeo-1_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+ 134  Wuhan_DELIM-HJIRGRARNKKZAKLBKLGS_IPBCAMS-WH-03_DELIM-HJIRGRARNKKZAKLBKLGS_2019                                      0.51%    passed     99.97%
+ 135  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW50_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.51%    passed     99.99%
+ 136  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA4-UW2_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.51%    passed     99.99%
+ 137  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW340_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.53%    passed    100.00%
+ 138  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW-1599_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed     99.99%
+ 139  Vietnam_DELIM-HJIRGRARNKKZAKLBKLGS_nCoV-19-02S_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                      0.51%    passed     99.99%
+ 140  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA1_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                                  0.51%    passed     99.99%
+ 141  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW223_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.51%    passed    100.00%
+ 142  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW-3889_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.67%    passed    100.00%
+ 143  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW227_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.51%    passed    100.00%
+ 144  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WI-UW-360_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.57%    passed    100.00%
+ 145  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WI-UW-266_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                            0.57%    passed     99.98%
+ 146  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW-4213_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.51%    passed    100.00%
+ 147  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW-5025_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                           0.66%    passed     99.98%
+ 148  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA-UW120_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                             0.56%    passed    100.00%
+ 149  USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA_5030_DELIM-HJIRGRARNKKZAKLBKLGS_2020                                              0.51%    passed    100.00%
+ 150  mink_DELIM-HJIRGRARNKKZAKLBKLGS_Netherlands_DELIM-HJIRGRARNKKZAKLBKLGS_NB02_06KS_DELIM-HJIRGRARNKKZAKLBKLGS_2020    0.52%    passed     99.95%
+ 151  mink_DELIM-HJIRGRARNKKZAKLBKLGS_Netherlands_DELIM-HJIRGRARNKKZAKLBKLGS_NB01_01KS_DELIM-HJIRGRARNKKZAKLBKLGS_2020    0.96%    passed     99.96%
+****  TOTAL                                                                                                               0.96%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: France_DELIM-HJIRGRARNKKZAKLBKLGS_10060KV_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to Wuhan_DELIM-HJIRGRARNKKZAKLBKLGS_Hu-1_DELIM-HJIRGRARNKKZAKLBKLGS_2019 but kept for subsequent analysis
+NOTE: France_DELIM-HJIRGRARNKKZAKLBKLGS_10078MA_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to France_DELIM-HJIRGRARNKKZAKLBKLGS_10006HC_DELIM-HJIRGRARNKKZAKLBKLGS_2020 but kept for subsequent analysis
+NOTE: France_DELIM-HJIRGRARNKKZAKLBKLGS_40003KA_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to France_DELIM-HJIRGRARNKKZAKLBKLGS_10015BY_DELIM-HJIRGRARNKKZAKLBKLGS_2020 but kept for subsequent analysis
+NOTE: Greece_DELIM-HJIRGRARNKKZAKLBKLGS_259_31928_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to Greece_DELIM-HJIRGRARNKKZAKLBKLGS_139_32716_DELIM-HJIRGRARNKKZAKLBKLGS_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1097_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to ENV_DELIM-HJIRGRARNKKZAKLBKLGS_USA_DELIM-HJIRGRARNKKZAKLBKLGS_UF-11_DELIM-HJIRGRARNKKZAKLBKLGS_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1085_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to USA_DELIM-HJIRGRARNKKZAKLBKLGS_CA-CZB-1045_DELIM-HJIRGRARNKKZAKLBKLGS_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0199_DELIM-HJIRGRARNKKZAKLBKLGS_2020 is identical to USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0197_DELIM-HJIRGRARNKKZAKLBKLGS_2020 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Greece_DELIM-HJIRGRARNKKZAKLBKLGS_37_35684_DELIM-HJIRGRARNKKZAKLBKLGS_2020 (identical to Greece_DELIM-HJIRGRARNKKZAKLBKLGS_139_32716_DELIM-HJIRGRARNKKZAKLBKLGS_2020) is ignored but added at the end
+NOTE: USA_DELIM-HJIRGRARNKKZAKLBKLGS_WA4-UW2_DELIM-HJIRGRARNKKZAKLBKLGS_2020 (identical to ENV_DELIM-HJIRGRARNKKZAKLBKLGS_USA_DELIM-HJIRGRARNKKZAKLBKLGS_UF-11_DELIM-HJIRGRARNKKZAKLBKLGS_2020) is ignored but added at the end
+NOTE: USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0205_DELIM-HJIRGRARNKKZAKLBKLGS_2020 (identical to USA_DELIM-HJIRGRARNKKZAKLBKLGS_VA-DCLS-0197_DELIM-HJIRGRARNKKZAKLBKLGS_2020) is ignored but added at the end
+Alignment was printed to results/global/subsampled_alignment-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/global/subsampled_alignment-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -43865.055
+2. Current log-likelihood: -43797.119
+3. Current log-likelihood: -43693.301
+Optimal log-likelihood: -43693.299
+Rate parameters:  A-C: 0.21869  A-G: 1.26681  A-T: 0.15031  C-G: 0.20206  C-T: 3.44045  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 3 rounds (0.091 sec)
+Computing ML distances based on estimated model parameters... 0.158 sec
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -43694.610
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.062 second
+Computing log-likelihood of 8 initial trees ... 0.027 seconds
+Current best score: -43693.269
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -43693.247
+Finish initializing candidate tree set (12)
+Current best tree score: -43693.247 / CPU time: 0.145
+Number of iterations: 2
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+TREE SEARCH COMPLETED AFTER 4 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -43693.247
+Optimal log-likelihood: -43693.246
+Rate parameters:  A-C: 0.21817  A-G: 1.26633  A-T: 0.14865  C-G: 0.20045  C-T: 3.44064  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (0.011 sec)
+BEST SCORE FOUND : -43693.246
+Total tree length: 0.011
+
+Total number of iterations: 4
+CPU time used for tree search: 0.874 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.262 sec (0h:0m:0s)
+Total CPU time used: 1.494 sec (0h:0m:1s)
+Total wall-clock time used: 0.433 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/global/subsampled_alignment-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/global/subsampled_alignment-delim.fasta.treefile
+  Likelihood distances:          results/global/subsampled_alignment-delim.fasta.mldist
+  Screen log file:               results/global/subsampled_alignment-delim.fasta.log
+
+Date and Time: Sun Dec  6 18:27:36 2020

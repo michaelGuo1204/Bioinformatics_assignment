@@ -1,0 +1,6 @@
+
+221 sequences were dropped during filtering
+	222 of these were dropped because of subsampling criteria
+
+	1 sequences were added back because they were in defaults/include.txt
+152 sequences have been written out to results/global/sample-global.fasta

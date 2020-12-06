@@ -1,0 +1,14 @@
+
+using mafft to align via:
+	mafft --reorder --anysymbol --nomemsave --adjustdirection --thread 2 results/split_alignments/1.fasta.to_align.fasta 1> results/split_alignments/1.fasta 2> results/split_alignments/1.fasta.log 
+
+	Katoh et al, Nucleic Acid Research, vol 30, issue 14
+	https://doi.org/10.1093%2Fnar%2Fgkf436
+
+9bp insertion at ref position 29857
+	WARNING: this insertion was caused due to 'N's or '?'s in provided sequences
+12bp insertion at ref position 29903
+	AAAAAAAAA: USA/CT-UW-5043/2020
+	AAAAAAAAAAAA: USA/ID-UW-4254/2020
+	A: USA/OR-UW409/2020
+Trimmed gaps in MN908947 from the alignment
