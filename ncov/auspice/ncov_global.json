@@ -735,8 +735,8 @@
     ],
     "maintainers": [
       {
-        "name": "My name",
-        "url": "www.myurl.com"
+        "name": "Xufan Gao, Xiaoran Chen, Qirui Guo",
+        "url": "https://github.com/michaelGuo1204/Bioinformatics_assignment/"
       }
     ],
     "panels": [
@@ -744,7 +744,7 @@
       "map",
       "entropy"
     ],
-    "title": "Genomic epidemiology of novel coronavirus - Global subsampling",
+    "title": "Visualized COVID-19 Phylogeny",
     "updated": "2020-12-06"
   },
   "tree": {
